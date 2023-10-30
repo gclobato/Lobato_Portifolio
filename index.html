@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Lobato</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
-    <title>Guilherme Lobato</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.3/css/all.min.css">
+  
+
 
 </head>
 
 <body>
 
-    <a class="scroll-to-top" href="#">
-        <img src="caminho-para-o-icone-do-botao.png" alt="Voltar ao topo">
-      </a>
-      
 
     <div class="caixa-principal" id="home">
         <nav>
@@ -36,17 +36,17 @@
 
         <div class="meu-nome">
             <h1>Guilherme <span>Lobato</span></h1>
-            <h3>Programador Front End</h3>
+            <h3>Desenvolvedor</h3>
         </div>
     </div>
 
 
     <section id="sobre">
-        <img src="./img/Background.jfif">
+        <img src="./img/Perfil.jfif">
         <div>
             <h2>Sobre mim</h2>
-            <p>Eu sou um Programador Front End, tenho experiência e conhecimento criando aplicações com HTML, CSS,
-                JavaScript, React e Node.</p>
+            <p>Eu sou Desenvolvedor, tenho experiência e conhecimento criando aplicações com HTML, CSS,
+                JavaScript e React.</p>
             <button>Entre em contato</button>
         </div>
     </section>
@@ -103,30 +103,16 @@
             </a>
         </div>
 
+
+
+        
+
     </footer>
 
-    <script>
-        $(document).ready(function () {
-            // Esconde o botão inicialmente
-            $(".scroll-to-top").hide();
-
-            // Mostra ou esconde o botão conforme o usuário rola a página
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    $(".scroll-to-top").fadeIn();
-                } else {
-                    $(".scroll-to-top").fadeOut();
-                }
-            });
-
-            // Rola suavemente até o topo quando o botão é clicado
-            $(".scroll-to-top").click(function () {
-                $("html, body").animate({ scrollTop: 0 }, 800); // 800 é a velocidade da animação em milissegundos
-                return false;
-            });
-        });
-    </script>
 
 </body>
+
+
+
 
 </html>

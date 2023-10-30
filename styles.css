@@ -112,12 +112,12 @@ section img {
 
 section div h2 {
     color: white;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 section div p {
-    color: #e2b9c6;
-    font-size: 24px;
+    color: #ffffff;
+    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 60px;
 }
@@ -158,6 +158,7 @@ section div button:hover {
     border-radius: 20px;
     padding: 20px 35px;
     text-align: center;
+    
 }
 
 .card img {
@@ -178,7 +179,7 @@ section div button:hover {
 
 .card a {
     background-color: #00804b;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
@@ -246,3 +247,7 @@ footer p {
     transform: scale(1.3);
     transition: 0.5s;
 }
+
+
+
+
